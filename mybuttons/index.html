@@ -47,9 +47,9 @@
 </head>
 <body>
     <div class="box">
-        <h1 id="head">Baklava severmisin kuzumm?</h1>
-        <button id="yes" onclick="fn()">yes</button>
-        <button id="no" onclick="fx()">no</button>
+        <h1 id="head">why didn't you answer me diana?</h1>
+        <button id="yes" onclick="fn()">No, I just forgot to text you. I will come back to you now</button>
+        <button id="no" onclick="fx()">i was angry to you</button>
     </div>
 </body>
 <script>
@@ -57,11 +57,11 @@
     const heading = document.getElementById("head");
 
     function fn(){
-        heading.innerHTML = "Nice choice veronika:)";
+        heading.innerHTML = "ok I am waiting:)";
     }
 
     function fx(){
-        const btn = document.getElementById('no');
+        const btn = document.getElementById('i was angry to you');
         const x = Math.floor(Math.random() * 200) + 1; // Adjusted the random range to keep the button within the container
         const y = Math.floor(Math.random() * 200) + 1; // Adjusted the random range to keep the button within the container
         btn.style.top = x + "px";
